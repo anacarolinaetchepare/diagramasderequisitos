@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="3">
   <diagram name="Página-1" id="wtqRebAa8EMyvGHa222w">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -257,6 +257,65 @@
             <mxPoint x="114.5" y="877" as="sourcePoint" />
             <mxPoint x="114.5" y="840" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CPQsaI7z0s9xiTCrSqKt" name="Página-3">
+    <mxGraphModel dx="1119" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#FF6666,#FFFFFF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-710" as="sourcePoint" />
+            <mxPoint x="90" y="-640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-2" value="informa novo código do cliente" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF6666,#FFFFFF);fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="30" y="-640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#FF3333,#FFFFFF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="-600" as="sourcePoint" />
+            <mxPoint x="89.5" y="-550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="80" y="-730" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-6" value="verifica se o cliente ja existe" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF3333,#FFFFFF);fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="30" y="-550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#FF3333,#FFFFFF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="-510" as="sourcePoint" />
+            <mxPoint x="89.5" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-8" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF6666,#FFFFFF);fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="70" y="-460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#FF3333,#FFFFFF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-450" as="sourcePoint" />
+            <mxPoint x="240" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-10" value="(cliente não existe)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-480" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-11" value="informa os dados no novo cliente" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF3333,#FFFFFF);fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="250" y="-470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-12" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#FF3333,#FFFFFF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="-450" as="sourcePoint" />
+            <mxPoint x="430" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6rxc7cIg0q1Om_3yFme-13" value="salva dados do cliente&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF3333,#FFFFFF);fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="430" y="-470" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
